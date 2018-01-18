@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Torrent</title>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">        
+    </head>
+    <body>
+<div class="container">
+      <div class="row">
+         <form action="/torrent" method="POST">
+            <div style="margin:25px auto;width:30%;">   
+               <div class="form-group">
+                  <input class="form-control" type="text" name="search[show]" placeholder="Tv Show Name">
+               </div>
+               <div class="form-group">
+                  <input class="form-control" type="text" name="search[season]" placeholder="Season">
+               </div>
+               <div class="form-group">
+                  <input class="form-control" type="text" name="search[episode]" placeholder="Episode">
+               </div>
+             
+               <div class="form-group">
+                  <input type="submit" value="Search" class="btn btn-primary btn-lg btn-block">   
+               </div>
+            </div>
+         </form>
+      </div>
+     </body>
+</html>
