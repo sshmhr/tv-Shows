@@ -9,6 +9,10 @@
   "author": "suyash mehra",
   "license": "ISC",
   "dependencies": {
-    "open": "0.0.5"
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "open": "0.0.5",
+    "request": "^2.83.0"
   }
 }
